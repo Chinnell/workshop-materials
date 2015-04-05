@@ -6,9 +6,9 @@ Welcome!
 
 Let's get started by creating your very own fork of this repository. Creating a fork is important because it gives you a personal copy of this repository to use as you see fit. Click the "Fork" button in the upper right hand corner of the screen and follow the directions to create your fork. You should be taken to a new repository named _your-username/workshop-materials_
 
-Open your koding.com server and get started by git cloning this repository into your remote machine. From the home directory, run the following command (replace **your-username**  with your github username):
+Open your koding.com server and get started by git cloning this repository into your remote machine. From the home directory, run the following command (replace **your-username**  with your github username; the command is everything **after** the $):
 
-	treylitefm:~$ git clone git@github.com:your-username/workshop-materials.git workshop
+	treylitefm:~ $ git clone git@github.com:your-username/workshop-materials.git workshop
 
 Output:
 
@@ -20,7 +20,7 @@ Output:
 	
 We want to change directories to the src (source) folder which is inside of our freshly cloned workshop project. Use pwd to see your current location in the filesystem.
     
-	treylitefm:~$ pwd
+	treylitefm:~ $ pwd
 
 Output:
 
@@ -28,15 +28,15 @@ Output:
 
 Change directories to the src directory.
 
-	treylitefm:~$ cd workshop/src
+	treylitefm:~ $ cd workshop/src
 
 Output:
 
-	treylitefm:~/workshop/src$
+	treylitefm:~/workshop/src $
 
 Use pwd to see your current directory once again.
 
-	treylitefm:~/workshop/src$ pwd
+	treylitefm:~/workshop/src $ pwd
 
 Output:
 
@@ -45,7 +45,7 @@ Output:
 
 Use the ls command to see all of the files inside of your current directory. In the below example, the only file in my src directory is welcome.js.
 
-	treylitefm:~/workshop/src$ ls
+	treylitefm:~/workshop/src $ ls
 
 Output:
 
@@ -81,7 +81,7 @@ Each milestone in a project is referred to as a commit. Commits are tagged with 
 
 First the commit:
 
-	git commit -m "A message that is relevant to the changes in my file."
+	treylitefm: ~/workshop/src $ git commit -m "A message that is relevant to the changes in my file."
 
 Output:
 
@@ -91,7 +91,7 @@ Output:
 
 Now the push:
 
-	git push origin master
+	treylitefm: ~/workshop/src $ git push origin master
 
 Output:
 
@@ -102,4 +102,4 @@ Output:
 	To git@github.com:treylitefm/workshop-materials.git
 		dd5e2af..bb58113  master -> master
 
-Now go to github.com:**your-username**/workshop-materials.git and you should see the recently pushed changes. Be sure to push all of your completed work!
+Now go to https://github.com/**your-username**/workshop-materials.git and you should see the recently pushed changes. Be sure to push all of your completed work!

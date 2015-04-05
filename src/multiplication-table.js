@@ -19,4 +19,4 @@
 // What's most important is that your grid calculates correctly.
 
 
-
+console.log("Good Luck!");

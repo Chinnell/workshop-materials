@@ -25,4 +25,4 @@ testList = ['this', 'is', 'an', 'array'];
 
 
 // Keep this line here so that you print out the return value of your function.
-console.log(largest(testList));
+console.log(largest(testList), "is the largest element in list:", testList);

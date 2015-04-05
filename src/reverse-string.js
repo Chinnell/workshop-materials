@@ -16,4 +16,4 @@ function reverse(str)
 var a = "Hey there!";
 
 // Keep this function call
-console.log(a);
+console.log(a, "in reverse is", reverse(a));
