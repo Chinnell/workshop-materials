@@ -43,7 +43,7 @@ Output:
 	/home/treylitefm/workshop/src
 
 
-Use the ls command to see all of the files inside of your current directory. In the below example, the only file in my src directory is hello-world.js.
+Use the ls command to see all of the files inside of your current directory. In the below example, the only file in my src directory is welcome.js.
 
 	treylitefm:~/workshop/src$ ls
 
