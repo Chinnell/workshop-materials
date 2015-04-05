@@ -49,17 +49,17 @@ Use the ls command to see all of the files inside of your current directory. In 
 
 Output:
 
-	hello-world.js
+	welcome.js
 
-Run hello-world.js using the node command.
+Run welcome.js using the node command.
 
-	treylitefm: ~/workshop/src $ node hello-world.js 
+	treylitefm: ~/workshop/src $ node welcome.js 
 
 Output:
 
-	Hello World!
+	Welcome!
 
-Awesome! Now time to get started on the exercises! Directions are in each of the exercise files. Once your program is complete, refer to the next section for directions on how to push your changes to github.
+Awesome! Now time to get started on the exercises! I recommend starting with hello-world.js, then greet-me.js. Directions are in each of the exercise files. Once your program is complete, refer to the next section for directions on how to push your changes to github.
 <br>
 
 ### Pushing your changes to github
